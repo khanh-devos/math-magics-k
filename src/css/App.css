@@ -55,7 +55,6 @@ body {
   grid-area: 6/1/6/3;
 }
 
-
 /* RESPONSIVE */
 @media screen and (max-width: 1200px) {
   body {
