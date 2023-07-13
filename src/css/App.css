@@ -10,7 +10,7 @@
 }
 
 body {
-  padding: 10em 30em;
+  padding: 1em 30em;
 }
 
 .calculator {
@@ -52,6 +52,7 @@ body {
   margin-bottom: 0.1em;
   font-family: Rajdhani, Lato, fantasy;
   cursor: auto;
+  overflow: hidden;
 }
 
 .item-4,
