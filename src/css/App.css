@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:wght@500;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rajdhani:wght@500;700&display=swap");
 
-* {
+*:not(h1,h2,h3,h4,h5) {
   box-sizing: border-box;
   font-size: 14px;
   font-family: Lato, fantasy;
@@ -10,10 +10,13 @@
 }
 
 body {
-  padding: 1em 30em;
+  padding: 1em 25em;
+  position: relative;
 }
 
 .calculator {
+  position: fixed;
+  visibility: hidden;
   border: 0.1em solid black;
   box-shadow: 0 0.1em 0.5em rgb(0, 0, 0);
   border-radius: 1em;

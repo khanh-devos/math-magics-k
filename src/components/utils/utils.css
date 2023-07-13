@@ -1,11 +1,38 @@
-
-
-.nav-button {
+#navigation-bar .nav-button {
   margin: 20px;
-  font-size: 1em;
+  padding: 0.2em 0.5em;
+  font-size: 1.2em;
 }
 
 .fetch-api {
   font-size: 2em;
-  visibility: hidden;
+  visibility: visible;
+  position: static;
+  width: 22em;
+  max-width: 90%;
+}
+
+.input {
+  padding: 0.3em;
+  font-size: 1.3em;
+  background: wheat;
+  width: 12em;
+  height: 2em;
+}
+
+#submit-btn {
+  height: 1.9em;
+  padding: 0 0.5em;
+  text-align: center;
+  margin-left: 1em;
+}
+
+.message {
+  margin-top: 2em;
+  font-size: 1.2em;
+  color: brown;
+}
+
+.logo {
+  margin-top: 2em;
 }
