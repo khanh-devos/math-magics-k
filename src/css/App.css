@@ -10,11 +10,23 @@
 }
 
 body {
-  padding: 5em 25em;
+  padding: 5em 20em;
   position: relative;
 }
 
+.linkStyle {
+  font-size: 1.2em;
+  margin: 0.2em;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
 .calculator {
+  flex: 1;
   border: 0.1em solid black;
   box-shadow: 0 0.1em 0.5em rgb(0, 0, 0);
   border-radius: 1em;
@@ -68,10 +80,16 @@ body {
   grid-area: 6/1/6/3;
 }
 
+.message {
+  color: #f5913e;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 1200px) {
   body {
-    padding: 10em 20em;
+    padding: 10em 15em;
   }
 }
 
@@ -79,10 +97,18 @@ body {
   body {
     padding: 10em 10em;
   }
+
+  .calculator-container {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 768px) {
   body {
     padding: 5em 1em;
+  }
+
+  .calculator-container {
+    flex-direction: column;
   }
 }
