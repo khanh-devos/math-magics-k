@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test operate use snaphsop 10 % 0 = ? 1`] = `"Can't find modulo as can't divide by 0."`;
+
+exports[`test operate use snaphsop 10 + 0 = ? 1`] = `"10"`;
+
+exports[`test operate use snaphsop 10 - 0 = ? 1`] = `"10"`;
+
+exports[`test operate use snaphsop 10 x 0 = ? 1`] = `"0"`;
+
+exports[`test operate use snaphsop 10 ÷ 0 = ? 1`] = `"Can't divide by 0."`;
