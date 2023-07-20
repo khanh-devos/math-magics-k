@@ -16,8 +16,10 @@ export default function Calculator() {
   };
 
   return (
-    <div className="calculator">
-      {
+    <div className="calculator-container">
+      <h2>Let&#39;s do some math !</h2>
+      <div className="calculator">
+        {
         arr.slice(0).map((sign, i) => (
           <Item
             key={uuidv4()}
@@ -30,6 +32,7 @@ export default function Calculator() {
           />
         ))
       }
+      </div>
     </div>
   );
 }
