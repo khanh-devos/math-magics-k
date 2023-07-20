@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchAPI test should match the snapshot 1`] = `
+<div>
+  <div
+    class="fetch-api"
+  >
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`fetchAPI test should render ERROR 1`] = `[Function]`;
+
+exports[`fetchAPI test should render json() 1`] = `[Function]`;
+
+exports[`fetchAPI test should render message 1`] = `[Function]`;
